@@ -7,6 +7,15 @@ body{
     padding: 0;
 }
 
+#header{
+    background: #33A;
+    box-shadow: 0px 2px 50px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5 em;
+}
+
 #container{
     width: 70%;
     padding: 1em;
@@ -17,4 +26,14 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+#header #tagline{
+    margin:  0 0 0 1em;
+    font-weight: bold;
+    font-size: 0.8 em;
+}
+
+#post{
+    padding: 1em;
 }
